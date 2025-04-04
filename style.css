@@ -58,11 +58,6 @@ header{
     gap: 1rem;
 }
 
-.home-img {
-    width: 100%;
-    height: auto;
-}
-
 .home-text h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -94,5 +89,53 @@ header{
     width: fit-content;
     padding: 1rem;
     border-radius: 0.5rem;
-    
+    cursor: pointer;
+    color: #f7f7f2;
+    border: 1px solid #1e1e24;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    background: #1e1e24;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: #f7f7f2;
+    color: #1e1e24;
+    transform: translateY(5px);
+}
+
+.socials-icons{
+    position: absolute;
+    top: 40%;
+    padding: 0 8rem;
+}
+
+.socials-icons i {
+    display: block;
+    margin: 25px 0;
+    color: #1e1e24;
+    font-size: 1.5rem;
+    transition: all 0.6s;
+}
+
+.socials-icons i:hover {
+    transform: rotate3d(0, 0, 1, 90deg);
+}
+
+.scroll-btn {
+    position: absolute;
+    bottom: 7%;
+    left: 9%;
+}
+
+.scroll.btn {
+    color: #1e1e24;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 500px;
 }
